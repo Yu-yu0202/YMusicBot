@@ -186,7 +186,7 @@ export class MusicManager {
     const player = createAudioPlayer({
       behaviors: {
         noSubscriber: NoSubscriberBehavior.Pause,
-        maxMissedFrames: Math.round(10000 / 20),
+        maxMissedFrames: Math.round(15000 / 20),
       },
     });
     con.subscribe(player);
